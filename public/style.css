@@ -1,0 +1,24 @@
+.nav.navbar-nav.navbar-right.nav.navbar-nav {
+	margin-right: 300px;
+}
+
+.navbar.navbar-default {
+	margin-bottom: 0;
+	border: 0;
+}
+
+.banner.col-md-3 {
+	margin-left: 50px;
+	padding: 10px;
+}
+
+.banner.col-md-3 img {
+	width: 320px;
+	height: 100px;
+}
+
+.input-group.search,
+.col-md-3.contacts,
+.col-md-2.social-buttons {
+	padding-top: 40px;
+}

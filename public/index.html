@@ -5,39 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HATA</title>
-
+    
+    <link href="style.css" rel="stylesheet">
     <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
 
   </head>
   <body>
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="text-uppercase">
-              <span class="glyphicon glyphicon-plus"></span>
-              <a href="#">Csatlakozom</a></li>
-            <li class="text-uppercase">
-              <span class="glyphicon glyphicon-user"></span>
-              <a href="#">Bejelentkezem</a></li>
-          </ul> 
+            <ul class="nav navbar-nav navbar-right nav navbar-nav top-navbar">
+              <li class="join">
+                <a href="#">
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                <span class="text-uppercase">Csatlakozom</span>
+                </a>
+              </li>
+              <li class="log-in">
+                <a href="#">
+                  <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                  <span class="text-uppercase">Bejelentkezem</span>
+                </a>
+              </li>
+            </ul>
         </div>  
       </div>
     </nav>
+    
+    <div class="container-fluid"> 
+      <div class="row banner">
+        <div class="banner col-md-3">
+          <a href="#"><img src="./img/kitten.jpg" alt="banner"></a>
+        </div>
+        <div class="col-md-3">
+          <div class="input-group search">
+            <input type="text" class="form-control" placeholder="Keresés az oldalon">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button">
+                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+              </button>
+              
+            </span>
+           </div>
+        </div>
+        <div class="col-md-3 contacts">
+          <span>Elérhetőségeink:</span>
+          <br>
+          <span>akarmi@akarmi.hu | 0690 555 5555</span>
+        </div>
+        <div class="col-md-2 social-buttons">
+          <a href="#">
+            <span class="glyphicon glyphicon-heart"></span>
+          </a>
+          <a href="#">
+            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+          </a>
+        </div>
 
-    <div class="panel panel-default">
-      <div class="brand-img">   
-        image
+        
       </div>
-      <div class="search">  
-        search
-      </div>
-      <div class="contact"> 
-        contact
-      </div>
-      <div class="social-media">
-        facebook
-      </div>   
     </div>
 
     <nav class="navbar navbar-default">
@@ -47,6 +74,9 @@
             <li><a href="#">egy</a></li>
             <li><a href="#">kettő</a></li>
             <li><a href="#">három</a></li>
+            <li><a href="#">negy</a></li>
+            <li><a href="#">ot</a></li>
+            <li><a href="#">hat</a></li>
           </ul>
           <div class="pull-right">
             nyelvek
